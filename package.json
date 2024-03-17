@@ -1,0 +1,20 @@
+{
+    "name": "typechain",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "tsc",
+        "start": "node build/index.js",
+        "dev": "nodemon --exec ts-node src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.2"
+    },
+    "dependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
